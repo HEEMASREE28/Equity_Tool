@@ -32,6 +32,7 @@ By combining retrieval and generation, the system provides **highly relevant, hu
    Retrieved data is passed to a language model.
 7. **Answer Generation**
    Context-aware response is generated and displayed.
+
 🛠️ Tech Stack
 * Python
 * NLP Techniques
@@ -40,8 +41,6 @@ By combining retrieval and generation, the system provides **highly relevant, hu
 * Retrieval-Augmented Generation (RAG)
 * (Optional UI: Streamlit / React)
 ⚙️ Installation & Setup
-
-```bash
 # Clone the repository
 git clone https://github.com/HEEMASREE28/Equity_Tool.git
 
