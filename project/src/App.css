@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --color-primary: #1E40AF;
+  --color-primary-light: #3B82F6;
+  --color-accent: #F59E0B;
+  --color-success: #10B981;
+  --color-warning: #F97316;
+  --color-error: #EF4444;
+  --color-text-primary: #1F2937;
+  --color-text-secondary: #4B5563;
+  --color-text-tertiary: #6B7280;
+  --color-background: #F9FAFB;
+  --color-card: #FFFFFF;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--color-text-primary);
+  background-color: var(--color-background);
+}
+
+.card-hover-effect {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-hover-effect:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.news-card {
+  transition: all 0.2s ease;
+}
+
+.news-card:hover {
+  border-color: var(--color-primary-light);
+}
+
+.sentiment-positive {
+  color: var(--color-success);
+}
+
+.sentiment-neutral {
+  color: var(--color-text-tertiary);
+}
+
+.sentiment-negative {
+  color: var(--color-error);
+}
